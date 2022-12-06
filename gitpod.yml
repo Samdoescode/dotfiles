@@ -1,5 +1,0 @@
-#!/usr/bin/env ansible-playbook
-- hosts: all
-  tasks:
-    - import_tasks: tasks/dotfiles.yml
-      tags: ["dotfiles"]
